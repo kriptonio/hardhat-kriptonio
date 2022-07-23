@@ -7,19 +7,19 @@ This plugin allows you to upload compiled hardhat smart contract artifacts to Kr
 ## Installation
 
 ```bash
-npm install hardhat-kriptonio
+npm install @kriptonio/hardhat-kriptonio
 ```
 
 Import the plugin in your `hardhat.config.js`:
 
 ```js
-require('hardhat-kriptonio');
+require('@kriptonio/hardhat-kriptonio');
 ```
 
 Or if you are using TypeScript, in your `hardhat.config.ts`:
 
 ```ts
-import 'hardhat-kriptonio';
+import '@kriptonio/hardhat-kriptonio';
 ```
 
 ## Configuration

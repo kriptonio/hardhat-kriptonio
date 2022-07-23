@@ -1,9 +1,13 @@
 {
-  "name": "hardhat-kriptonio",
+  "name": "@kriptonio/hardhat-kriptonio",
   "version": "0.1.0",
   "description": "Hardhat Kriptonio plugin",
-  "author": "Kriptonio",
+  "author": "kriptonio",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kriptonio/hardhat-kriptonio"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
@@ -31,10 +35,10 @@
     "@types/fs-extra": "9.0.13",
     "@types/mocha": "9.1.1",
     "@types/node": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "^5.30.7",
-    "@typescript-eslint/parser": "^5.30.7",
+    "@typescript-eslint/eslint-plugin": "5.30.7",
+    "@typescript-eslint/parser": "5.30.7",
     "chai": "4.3.6",
-    "eslint": "^8.20.0",
+    "eslint": "8.20.0",
     "hardhat": "2.10.1",
     "mocha": "10.0.0",
     "ts-node": "10.9.1",
