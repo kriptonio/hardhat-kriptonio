@@ -28,7 +28,7 @@ This plugin adds new configuration option in your hardhat config file, called `k
 
 | option                 | Description                                                                                                                                 |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| accessToken (required) | Kriptonio Access token. You can find it in your profile page.                                                                               |
+| accessToken (required) | Kriptonio organization level access token. You can find it in your [settings page](https://app.kriptonio.com/settings/access-tokens).       |
 | blockchain (required)  | Blockchain where your smart contract will be deployed. Currently supported values for this fields are `polygon` and `ethereum`.             |
 | contract (required)    | Smart contract name which you want to upload to kriptonio                                                                                   |
 | name (optional)        | Name of kriptonio smart contract project to be created. Defaults to contract name.                                                          |
