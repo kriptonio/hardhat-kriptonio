@@ -12,7 +12,7 @@ export interface Build {
 export interface KriptonioUploadConfig {
   name: string;
   contract: string;
-  wallet: string | undefined;
+  wallet: string;
   apiUrl: string;
   appUrl: string;
   accessToken: string;
